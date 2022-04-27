@@ -1,0 +1,11 @@
+﻿  Application.cpp
+Application.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "void __cdecl myKeyCallback(struct GLFWwindow *,int,int,int,int)" (?myKeyCallback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Application.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+Application.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+C:\Users\carlo\Desktop\Projects\C++\OpenGL\Dependencies\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\carlo\Desktop\Projects\C++\OpenGL\x64\Debug\OpenGL.exe : fatal error LNK1120: 8 unresolved externals
